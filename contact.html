@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link href="style.css" rel="stylesheet" type="text/css" />
+	</head>
+
+	<body>
+		<div id="wrapper" >
+			<header><h1>Sven and Siobhan<br/>Prince and Princess of AEthelmearc</h1></header>
+			<nav>
+				<div id="linklist">
+					<a href="/">Home</a>
+					<a href="staff.html">Staff</a>
+					<a href="eventlist.html">Event List</a>
+					<a href="contact.html">Contact</a>
+				</div>
+				<select onchange="location = this.options[this.selectedIndex].value;">
+					<option value="" selected="selected">Select</option>
+					<option value="index.html">Home</option>
+					<option value="staff.html">Staff</option>
+					<option value="eventlist.html">Event List</option>
+					<option value="contact.html">Contact</option>
+				</select>
+			</nav>
+			<article>
+				<header>
+					<img src="images/robert.png" alt="Sven" />
+					<h2>Sven Gunnarsson of Fathrundrialand</h2>
+				</header>
+				<div id="articlewrapper">
+					<div id="articlecenter">
+						<p>Robert Hedstrom</p>
+						<p>Email: ae.prince@aethelmearc.org</p>
+						<p>Phone: 412-888-7526 (Please no calls after 9 PM)</p>
+					</div>
+				</div>
+			</article>
+			<article>
+				<header>
+					<img src="images/diane.png" alt="Siobhan" />
+					<h2>Siobhán inghean uí Liatháin</h2>
+				</header>
+				<div id="articlewrapper">
+					<div id="articlecenter">
+						<p>Diane Hedstrom</p>
+						<p>Email: ae.princess@aethelmearc.org</p>
+						<p>Phone: 412-888-7577 (Please no calls after 9 PM)</p>
+					</div>
+				</div>
+			</article>
+			<div id="footer">The footer</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link href="style.css" rel="stylesheet" type="text/css" />
+	</head>
+
+	<body>
+		<div id="wrapper" >
+			<header><h1>Sven and Siobhan<br/>Prince and Princess of AEthelmearc</h1></header>
+			<nav>
+				<div id="linklist">
+					<a href="/">Home</a>
+					<a href="staff.html">Staff</a>
+					<a href="eventlist.html">Event List</a>
+					<a href="contact.html">Contact</a>
+				</div>
+				<select onchange="location = this.options[this.selectedIndex].value;">
+					<option value="" selected="selected">Select</option>
+					<option value="index.html">Home</option>
+					<option value="staff.html">Staff</option>
+					<option value="eventlist.html">Event List</option>
+					<option value="contact.html">Contact</option>
+				</select>
+			</nav>
+			<header>
+				<h2>Event list</h2>
+			</header>
+			<article>
+			This will be a list of events Sven and Siobhan is travelling to!
+			</article>
+			<div id="footer">The footer</div>
+		</div>
+	</body>
+</html>
