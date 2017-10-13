@@ -48,11 +48,11 @@ padding-top: 20px;
 padding-left: 120px;
 }
 
-#articlewrapper {
+.articlewrapper {
   text-align: center;
 }
 
-#articlecenter {
+.articlecenter {
   display: inline-block;
 }
 
@@ -148,10 +148,22 @@ padding: 5px;
 }
 
 nav select {
-  display: none;
+display: none;
+}
+
+table {
+padding:17px 0 3px 25px;
+}
+
+td, th {
+padding: 0;
+}
+
+.redbutton {
+background-color:#8c0000;
 }
 
 @media screen and (max-width: 480px) {
-  #linklist     { display: none; }
-  nav select { display: inline-block; }
+#linklist { display: none; }
+nav select { display: inline-block; }
 }
