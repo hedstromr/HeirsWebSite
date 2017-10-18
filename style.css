@@ -155,6 +155,11 @@ table {
 padding:17px 0 3px 25px;
 }
 
+.prefpicture {
+height: 250px;
+padding: 20px 0 0px 20px;
+}
+
 td, th {
 padding: 0;
 }
@@ -163,7 +168,35 @@ padding: 0;
 background-color:#8c0000;
 }
 
+@media screen and (min-width: 481px) {
+
+.col1 {
+    float:left; 
+    width:45%;
+    background-color: #8c0000;
+}
+
+.col2 {
+    float:left; 
+    width:45%; 
+    margin-left:30px;
+    background-color: #8c0000;
+}
+
+}
+
 @media screen and (max-width: 480px) {
+
 #linklist { display: none; }
+
 nav select { display: inline-block; }
+
+.col1 {
+    background-color: #8c0000;
+}
+
+.col2 {
+    background-color: #8c0000;
+}
+
 }
