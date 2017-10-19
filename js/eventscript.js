@@ -1,7 +1,18 @@
 
-function loadeventtable(showall, showempty)
+function loadeventtable()
 {
 	var today = new Date();
+	var showall = 0;
+	var showempty = 0;
+	
+	var chkShowOldEvents = document.getElementById('chkShowOldEvents');
+    if (chkShowOldEvents.checked) {
+		showall = 1;
+	}
+	var chkShowEmptyWeekends = document.getElementById('chkShowEmptyWeekends');
+    if (chkShowEmptyWeekends.checked) {
+		showempty = 1;
+	}
 
 	var heading = new Array();
 	heading[0] = new Array("Event date", "90");
@@ -46,7 +57,7 @@ function loadeventtable(showall, showempty)
 }
 
 function load() {
-	loadeventtable(0,0);
+	loadeventtable();
 	
     console.log("Page load finished");
 }
