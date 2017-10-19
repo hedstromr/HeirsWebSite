@@ -157,7 +157,10 @@ padding:17px 0 3px 25px;
 
 .prefpicture {
 height: 250px;
-padding: 20px 0 0px 20px;
+}
+
+.contactpicture {
+width: 100px;
 }
 
 td, th {
@@ -174,6 +177,7 @@ background-color:#8c0000;
     float:left; 
     width:45%;
     background-color: #8c0000;
+	padding: 20px 0 0px 20px;
 }
 
 .col2 {
@@ -181,6 +185,7 @@ background-color:#8c0000;
     width:45%; 
     margin-left:30px;
     background-color: #8c0000;
+	padding: 20px 0 0px 20px;
 }
 
 }
@@ -193,10 +198,12 @@ nav select { display: inline-block; }
 
 .col1 {
     background-color: #8c0000;
+	padding: 20px 0 0px 20px;
 }
 
 .col2 {
     background-color: #8c0000;
+	padding: 20px 0 0px 20px;
 }
 
 }

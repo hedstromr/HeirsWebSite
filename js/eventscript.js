@@ -7,16 +7,7 @@ function loadeventtable(showall, showempty)
 	heading[0] = new Array("Event date", "90");
 	heading[1] = new Array("Event name", "400");
 	
-	var eventlist = new Array();
-	eventlist[0] = new Array("10/07/2017", "Fall Crown Tournament");
-	eventlist[1] = new Array("10/14/2017", "Ansteorra Coronation");
-	eventlist[2] = new Array("10/21/2017", "");
-	eventlist[3] = new Array("10/28/2017", "");
-	eventlist[4] = new Array("11/04/2017", "");
-	eventlist[5] = new Array("11/11/2017", "Æthelmearc and East Kingdom War (Corn maze)");
-	eventlist[6] = new Array("11/18/2017", "");
-	eventlist[7] = new Array("11/25/2017", "");
-	eventlist[8] = new Array("12/02/2017", "Christmas Tourney 46 (Middle Kingdom)");
+	var eventlist = GetEventListFunction();
 	
 	var tableDiv = document.getElementById("eventtable");
 	var table = document.createElement('TABLE');
