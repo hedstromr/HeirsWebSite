@@ -42,11 +42,20 @@ function loadeventtable()
 		if (eventdate >= today || showall === 1) {
 			if (eventlist[i][1] !== "" || showempty === 1) {
 				var tr = document.createElement('TR');
-				for (j = 0; j < eventlist[i].length; j++) {
-					var td = document.createElement('TD');
-					td.appendChild(document.createTextNode(eventlist[i][j]));
-					tr.appendChild(td);
+				var tddate = document.createElement('TD');
+				tddate.appendChild(document.createTextNode(eventlist[i][0]));
+				tr.appendChild(tddate);
+				var tdevent = document.createElement('TD');
+				if (eventlist[i][2] !=="") {
+					var aevent = document.createElement('a');
+					aevent.setAttribute('href', eventlist[i][2]);
+					aevent.setAttribute('target', '_blank');
+					aevent.innerHTML = eventlist[i][1];
+					tdevent.appendChild(aevent);
+				} else {
+					tdevent.appendChild(document.createTextNode(eventlist[i][1]));
 				}
+				tr.appendChild(tdevent);
 				tableBody.appendChild(tr);
 			}
 		}
