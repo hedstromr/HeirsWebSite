@@ -21,7 +21,7 @@ function GetEventListFunction()
 	eventlist[i++] = new Array("01/27/2018", "", "");
 	eventlist[i++] = new Array("02/03/2018", "", "");
 	eventlist[i++] = new Array("02/10/2018", "", "");
-	eventlist[i++] = new Array("02/17/2018", "", "");
+	eventlist[i++] = new Array("02/17/2018", "AEdult Swim", "http://aethelmearc.org/event/aedult-swim/");
 	eventlist[i++] = new Array("02/24/2018", "", "");
 	eventlist[i++] = new Array("03/03/2018", "", "");
 	eventlist[i++] = new Array("03/10/2018", "", "");
@@ -30,7 +30,7 @@ function GetEventListFunction()
 	eventlist[i++] = new Array("03/31/2018", "", "");
 	eventlist[i++] = new Array("04/07/2018", "", "");
 	eventlist[i++] = new Array("04/14/2018", "The Festival of the Passing of the Ice Dragon", "http://aethelmearc.org/event/the-festival-of-the-passing-of-the-ice-dragon/");
-	eventlist[i++] = new Array("04/21/2018", "", "");
+	eventlist[i++] = new Array("04/21/2018", "AEthelmearc Spring Coronation", "(Jamestown NY)");
 	eventlist[i++] = new Array("04/28/2018", "", "");
 	eventlist[i++] = new Array("05/05/2018", "", "");
 	eventlist[i++] = new Array("05/12/2018", "", "");
