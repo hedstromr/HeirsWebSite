@@ -81,6 +81,11 @@ color:#CCC;
 padding:25px 25px 5px 25px;
 }
 
+.bodybackground{
+background-color:#333;
+color:#CCC;
+}
+
 aside{
 float:left;
 width:170px;
@@ -168,9 +173,13 @@ padding:0px 0 45px 20px;
 width: 100px;
 }
 
+.stafftable {
+color: #CCC;
+}
+
 .staffpicture {
 width:75px;
-padding:5px 5px 5px 5px;
+padding:5px 5px 5px 10px;
 }
 
 td, th {
