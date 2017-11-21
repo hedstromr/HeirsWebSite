@@ -30,14 +30,14 @@ function GetEventListFunction()
 	eventlist[i++] = new Array("03/31/2018", "", "");
 	eventlist[i++] = new Array("04/07/2018", "", "");
 	eventlist[i++] = new Array("04/14/2018", "The Festival of the Passing of the Ice Dragon", "http://aethelmearc.org/event/the-festival-of-the-passing-of-the-ice-dragon/");
-	eventlist[i++] = new Array("04/21/2018", "AEthelmearc Spring Coronation", "(Jamestown NY)");
-	eventlist[i++] = new Array("04/28/2018", "", "");
+	eventlist[i++] = new Array("04/21/2018", "AEthelmearc Spring Coronation (Jamestown NY)", "");
+	eventlist[i++] = new Array("04/28/2018", "Blackstone Raid", "");
 	eventlist[i++] = new Array("05/05/2018", "", "");
 	eventlist[i++] = new Array("05/12/2018", "", "");
 	eventlist[i++] = new Array("05/19/2018", "Æthelmearc War Practice", "http://aethelmearc.org/event/aethelmearc-war-practice/");
 	eventlist[i++] = new Array("05/26/2018", "", "");
 	eventlist[i++] = new Array("06/02/2018", "", "");
-	eventlist[i++] = new Array("06/09/2018", "", "");
+	eventlist[i++] = new Array("06/09/2018", "Northern Oaken War Maneuvers XXII (Middle Kingdom)", "");
 	eventlist[i++] = new Array("06/16/2018", "", "");
 	eventlist[i++] = new Array("06/23/2018", "", "");
 	eventlist[i++] = new Array("06/30/2018", "East Kingdom 50 Year Celebration", "https://www.eastkingdom.org/EventDetails.php?eid=3161");
