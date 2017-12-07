@@ -11,7 +11,7 @@ function GetEventListFunction()
 	eventlist[i++] = new Array("11/18/2017", "", "");
 	eventlist[i++] = new Array("11/25/2017", "", "");
 	eventlist[i++] = new Array("12/02/2017", "Christmas Tourney 46 (Middle Kingdom)", "https://christmastourney.weebly.com/");
-	eventlist[i++] = new Array("12/09/2017", "", "");
+	eventlist[i++] = new Array("12/09/2017", "Fall Queen’s Rapier Championship", "http://aethelmearc.org/event/fall-queens-rapier-championship-2017/");
 	eventlist[i++] = new Array("12/16/2017", "", "");
 	eventlist[i++] = new Array("12/23/2017", "", "");
 	eventlist[i++] = new Array("12/30/2017", "", "");
@@ -21,7 +21,8 @@ function GetEventListFunction()
 	eventlist[i++] = new Array("01/27/2018", "", "");
 	eventlist[i++] = new Array("02/03/2018", "", "");
 	eventlist[i++] = new Array("02/10/2018", "", "");
-	eventlist[i++] = new Array("02/17/2018", "AEdult Swim", "http://aethelmearc.org/event/aedult-swim/");
+	eventlist[i++] = new Array("02/17/2018", "AEdult Swim (Prince)", "http://aethelmearc.org/event/aedult-swim/");
+	eventlist[i++] = new Array("02/17/2018", "Talvi-ilta (Midwinter feast) (Princess)", "http://www.talvi-ilta.humalasalo.net/");
 	eventlist[i++] = new Array("02/24/2018", "", "");
 	eventlist[i++] = new Array("03/03/2018", "", "");
 	eventlist[i++] = new Array("03/10/2018", "", "");
