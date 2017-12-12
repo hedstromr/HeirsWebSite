@@ -22,7 +22,7 @@ function GetEventListFunction()
 	eventlist[i++] = new Array("02/03/2018", "", "");
 	eventlist[i++] = new Array("02/10/2018", "", "");
 	eventlist[i++] = new Array("02/17/2018", "AEdult Swim (Prince)", "http://aethelmearc.org/event/aedult-swim/");
-	eventlist[i++] = new Array("02/17/2018", "Talvi-ilta (Midwinter feast) (Princess)", "http://www.talvi-ilta.humalasalo.net/");
+	eventlist[i++] = new Array("02/17/2018", "Midwinter Feast ~ Sydäntalvenjuhla (Princess)", "http://midwinter2018.webs.com/");
 	eventlist[i++] = new Array("02/24/2018", "", "");
 	eventlist[i++] = new Array("03/03/2018", "", "");
 	eventlist[i++] = new Array("03/10/2018", "", "");
