@@ -38,7 +38,8 @@ function loadeventtable()
 	
 	for (i = 0; i < eventlist.length; i++) {
 		var parts = eventlist[i][0].split('/');
-		var eventdate = new Date(parts[2],parts[0]-1,parts[1]); 
+		var eventdate = new Date(parts[2],parts[0]-1,parts[1]);
+		eventdate.setDate(eventdate.getDate() + 1);		
 		if (eventdate >= today || showall === 1) {
 			if (eventlist[i][1] !== "" || showempty === 1) {
 				var tr = document.createElement('TR');
