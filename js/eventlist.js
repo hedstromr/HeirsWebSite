@@ -23,7 +23,7 @@ function GetEventListFunction()
 	eventlist[i++] = new Array("02/10/2018", "", "");
 	eventlist[i++] = new Array("02/17/2018", "AEdult Swim (Prince only)", "http://aethelmearc.org/event/aedult-swim/");
 	eventlist[i++] = new Array("02/17/2018", "Midwinter Feast ~ Sydäntalvenjuhla (Princess only)", "http://midwinter2018.webs.com/");
-	eventlist[i++] = new Array("02/24/2018", "St. Vals / Scots Welsh War Practice in Trimaris (Princess only)", "");
+	eventlist[i++] = new Array("02/24/2018", "St. Vals / Scots Welsh War Practice in Trimaris (Princess only)", "https://sites.google.com/trimaris.org/svsw2018/mainpages");
 	eventlist[i++] = new Array("03/03/2018", "Tournament of the White Hart XXI", "http://aethelmearc.org/event/tournament-of-the-white-hart-xxi-le-livre-de-chasse/");
 	eventlist[i++] = new Array("03/10/2018", "", "");
 	eventlist[i++] = new Array("03/17/2018", "", "");
@@ -42,7 +42,7 @@ function GetEventListFunction()
 	eventlist[i++] = new Array("06/16/2018", "Spring Æthelmearc AEcademy and War College", "http://aethelmearc.org/event/spring-aethelmearc-academy-preferred-date-region-3-eastern-pa/");
 	eventlist[i++] = new Array("06/23/2018", "Kingdom A&S Faire", "http://aethelmearc.org/event/kingdom-as-faire/");
 	eventlist[i++] = new Array("06/30/2018", "East Kingdom 50 Year Celebration", "https://www.eastkingdom.org/EventDetails.php?eid=3161");
-	eventlist[i++] = new Array("07/07/2018", "[Family obligation]", "");
+	eventlist[i++] = new Array("07/07/2018", "[Family obligation] and Pax Interruptus XXXXII", "http://aethelmearc.org/event/pax-interruptus-xxxxii/");
 	eventlist[i++] = new Array("07/14/2018", "Bog Three Days", "http://aethelmearc.org/event/bog-three-day-2018/");
 	eventlist[i++] = new Array("07/21/2018", "", "");
 	eventlist[i++] = new Array("07/28/2018", "Pennsic", "http://www.pennsicwar.org");
