@@ -1,4 +1,4 @@
-function GetEventListFunction()
+﻿function GetEventListFunction()
 {
 	var i = 0;
 	var eventlist = new Array();
@@ -33,12 +33,12 @@ function GetEventListFunction()
 	eventlist[i++] = new Array("04/14/2018", "The Festival of the Passing of the Ice Dragon", "http://aethelmearc.org/event/the-festival-of-the-passing-of-the-ice-dragon/");
 	eventlist[i++] = new Array("04/21/2018", "AEthelmearc Spring Coronation", "http://aethelmearc.org/event/coronation-for-sven-and-siobhan/");
 	eventlist[i++] = new Array("04/28/2018", "Blackstone Raid", "http://aethelmearc.org/event/blackstone-raid-xxvii/");
-	eventlist[i++] = new Array("05/05/2018", "", "");
+	eventlist[i++] = new Array("05/05/2018", "Midrealm Coronation", "http://middlemarches.org/coronation.html");
 	eventlist[i++] = new Array("05/12/2018", "Spring Crown (Nanticoke, PA)", "http://aethelmearc.org/event/spring-crown-tournament-preferred-date-region-2-western-pa/");
 	eventlist[i++] = new Array("05/19/2018", "Æthelmearc War Practice", "http://aethelmearc.org/event/aethelmearc-war-practice/");
 	eventlist[i++] = new Array("05/26/2018", "", "");
 	eventlist[i++] = new Array("06/02/2018", "Myrkfaelinn Summer War Practice", "http://aethelmearc.org/event/myrkfaelinn-summer-war-practice-2018/");
-	eventlist[i++] = new Array("06/09/2018", "Northern Oaken War Maneuvers XXII (Middle Kingdom)", "http://nowm.cleftlands.org/");
+	eventlist[i++] = new Array("06/09/2018", "The Scarlet Guard Inn Archery Festival VI","http://aethelmearc.org/event/the-scarlet-guard-inn-archery-festival-vi/");
 	eventlist[i++] = new Array("06/16/2018", "Spring Æthelmearc AEcademy and War College", "http://aethelmearc.org/event/spring-aethelmearc-academy-preferred-date-region-3-eastern-pa/");
 	eventlist[i++] = new Array("06/23/2018", "Kingdom A&S Faire", "http://aethelmearc.org/event/kingdom-as-faire/");
 	eventlist[i++] = new Array("06/30/2018", "East Kingdom 50 Year Celebration", "https://www.eastkingdom.org/EventDetails.php?eid=3161");
